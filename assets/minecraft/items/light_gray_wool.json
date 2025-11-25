@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/light_gray_wool"
+    },
+    "cases": [
+	  {
+        "when": "present",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/wool/part_1/light_gray/present"
+        }
+      }
+    ]
+  }
+}
+
+

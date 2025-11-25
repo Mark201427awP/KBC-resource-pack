@@ -1,0 +1,1783 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/carved_pumpkin"
+    },
+    "cases": [
+	  {
+        "when": "4am",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/4am/4am"
+        }
+      },
+	  {
+        "when": "5051",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/5051/5051"
+        }
+      },
+	  {
+        "when": "banana",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/banana/banana"
+        }
+      },
+	  {
+        "when": "bav",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/bav/bav"
+        }
+      },
+	  {
+        "when": "beach_paname",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/beach_paname/beach_paname"
+        }
+      },
+	  {
+        "when": "bee",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/bee/bee"
+        }
+      },
+	  {
+        "when": "bender",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/bender/bender"
+        }
+      },
+	  {
+        "when": "beret",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/beret/beret"
+        }
+      },
+	  {
+        "when": "box",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/box/box"
+        }
+      },
+	  {
+        "when": "catsittingverycomfortable",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/catsittingverycomfortable/catsittingverycomfortable"
+        }
+      },
+	  {
+        "when": "cone",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/cone/cone"
+        }
+      },
+	  {
+        "when": "crabirbit",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/crabirbit/crabirbit"
+        }
+      },
+	  {
+        "when": "daft1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/daft1/daft1"
+        }
+      },
+	  {
+        "when": "daft2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/daft2/daft2"
+        }
+      },
+	  {
+        "when": "deer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/deer/deer"
+        }
+      },
+	  {
+        "when": "duck",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/duck/duck"
+        }
+      },
+	  {
+        "when": "eggs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/eggs/eggs"
+        }
+      },
+	  {
+        "when": "elf",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/elf/elf"
+        }
+      },
+	  {
+        "when": "fish",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/fish/fish"
+        }
+      },
+	  {
+        "when": "gneg",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/gneg/gneg"
+        }
+      },
+	  {
+        "when": "gneg_ny",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/gneg_ny/gneg_ny"
+        }
+      },
+	  {
+        "when": "halo",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/halo/halo"
+        }
+      },
+	  {
+        "when": "headphones",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/headphones/headphones"
+        }
+      },
+	  {
+        "when": "ice",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/ice/ice"
+        }
+      },
+	  {
+        "when": "jaba",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/jaba/jaba"
+        }
+      },
+	  {
+        "when": "kastrula",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/kastrula/kastrula"
+        }
+      },
+	  {
+        "when": "kyle",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/kyle/kyle"
+        }
+      },
+	  {
+        "when": "loki",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/loki/loki"
+        }
+      },
+	  {
+        "when": "n_e_v_o_s_hat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/n_e_v_o_s_hat/n_e_v_o_s_hat"
+        }
+      },
+	  {
+        "when": "nutcracker",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/nutcracker/nutcracker"
+        }
+      },
+	  {
+        "when": "peppino",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/peppino/peppino"
+        }
+      },
+	  {
+        "when": "pirate_hat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/pirate_hat/pirate_hat"
+        }
+      },
+	  {
+        "when": "pizza",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/pizza/pizza"
+        }
+      },
+	  {
+        "when": "plague",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/plague/plague"
+        }
+      },
+	  {
+        "when": "puss_hat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/puss_hat/puss_hat"
+        }
+      },
+	  {
+        "when": "rembo",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/rembo/rembo"
+        }
+      },
+	  {
+        "when": "roborabbit",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/roborabbit/roborabbit"
+        }
+      },
+	  {
+        "when": "santa_hat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/santa_hat/santa_hat"
+        }
+      },
+	  {
+        "when": "seagull",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/seagull/seagull"
+        }
+      },
+	  {
+        "when": "seastar",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/seastar/seastar"
+        }
+      },
+	  {
+        "when": "slivki",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/slivki/slivki"
+        }
+      },
+	  {
+        "when": "snegurochka",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/snegurka/snegurka"
+        }
+      },
+	  {
+        "when": "snowman",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/snowman_hat/snowman_hat"
+        }
+      },
+	  {
+        "when": "solar",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/solar/solar"
+        }
+      },
+	  {
+        "when": "sp_glass",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/sp_glass/sp_glass"
+        }
+      },
+	  {
+        "when": "spider",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/spider/spider"
+        }
+      },
+	  {
+        "when": "spore_blossom",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/spore_blossom/spore_blossom"
+        }
+      },
+	  {
+        "when": "star",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/star/star"
+        }
+      },
+	  {
+        "when": "tazik",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/tazik/tazik"
+        }
+      },
+	  {
+        "when": "tent_chest",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/tent_chest/tent_chest"
+        }
+      },
+	  {
+        "when": "trash_can_lid",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/trash_can_lid/trash_can_lid"
+        }
+      },
+	  {
+        "when": "ushanka",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/ushanka/ushanka"
+        }
+      },
+	  {
+        "when": "whale",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/whale/whale"
+        }
+      },
+	  {
+        "when": "white",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/white/white"
+        }
+      },
+	  {
+        "when": "willy_wonka",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/willy_wonka/willy_wonka"
+        }
+      },
+	  {
+        "when": "witch",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/witch/witch"
+        }
+      },
+	  {
+        "when": "zont",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/zont/zont"
+        }
+      },
+	  {
+        "when": "apple",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/apple/apple"
+        }
+      },
+	  {
+        "when": "bant",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/bant/bant"
+        }
+      },
+	  {
+        "when": "bant_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/bant_blue/bant_blue"
+        }
+      },
+	  {
+        "when": "bant_cyan",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/bant_cyan/bant_cyan"
+        }
+      },
+	  {
+        "when": "bant_orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/bant_orange/bant_orange"
+        }
+      },
+	  {
+        "when": "bant_red",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/bant_red/bant_red"
+        }
+      },
+	  {
+        "when": "bant_white",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/bant_white/bant_white"
+        }
+      },
+	  {
+        "when": "bant_yellow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/bant_yellow/bant_yellow"
+        }
+      },
+	  {
+        "when": "blackberry",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/blackberry/blackberry"
+        }
+      },
+	  {
+        "when": "builder",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/builder_helmet/builder_helmet"
+        }
+      },
+	  {
+        "when": "crane",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/crane/crane"
+        }
+      },
+	  {
+        "when": "feelspwgoodman",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/feelspwgoodman/feelspwgoodman"
+        }
+      },
+	  {
+        "when": "feelssadman",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/feelssadman/feelssadman"
+        }
+      },
+	  {
+        "when": "feelssusman",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/feelssusman/feelssusman"
+        }
+      },
+	  {
+        "when": "hat_cyan",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/hat_cyan/hat_cyan"
+        }
+      },
+	  {
+        "when": "hat_nadz",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/hat_nadz/hat_nadz"
+        }
+      },
+	  {
+        "when": "hat_orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/hat_orange/hat_orange"
+        }
+      },
+	  {
+        "when": "hat_pink",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/hat_pink/hat_pink"
+        }
+      },
+	  {
+        "when": "hat_purple",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/hat_purple/hat_purple"
+        }
+      },
+	  {
+        "when": "hat_rainbow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/hat_rainbow/hat_rainbow"
+        }
+      },
+	  {
+        "when": "hat_white_rainbow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/hat_white_rainbow/hat_white_rainbow"
+        }
+      },
+	  {
+        "when": "hat_yellow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/hat_yellow/hat_yellow"
+        }
+      },
+	  {
+        "when": "lemon",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/lemon/lemon"
+        }
+      },
+	  {
+        "when": "lime",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/lime/lime"
+        }
+      },
+	  {
+        "when": "mandarin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/mandarin/mandarin"
+        }
+      },
+	  {
+        "when": "orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/orange/orange"
+        }
+      },
+	  {
+        "when": "pag",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/pag/pag"
+        }
+      },
+	  {
+        "when": "paname",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/paname/paname"
+        }
+      },
+	  {
+        "when": "party_hat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/party_hat/party_hat"
+        }
+      },
+	  {
+        "when": "party_hat1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/party_hat1/party_hat1"
+        }
+      },
+	  {
+        "when": "party_hat2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/party_hat2/party_hat2"
+        }
+      },
+	  {
+        "when": "party_hat3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/party_hat3/party_hat3"
+        }
+      },
+	  {
+        "when": "pencil_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/pencil_blue/pencil_blue"
+        }
+      },
+	  {
+        "when": "pencil_cyan",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/pencil_cyan/pencil_cyan"
+        }
+      },
+	  {
+        "when": "pencil_orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/pencil_orange/pencil_orange"
+        }
+      },
+	  {
+        "when": "pencil_pink",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/pencil_pink/pencil_pink"
+        }
+      },
+	  {
+        "when": "pencil_red",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/pencil_red/pencil_red"
+        }
+      },
+	  {
+        "when": "pencil_yellow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/pencil_yellow/pencil_yellow"
+        }
+      },
+	  {
+        "when": "pot_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/pot_blue/pot_blue"
+        }
+      },
+	  {
+        "when": "pot_light_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/pot_light_b/pot_light_b"
+        }
+      },
+	  {
+        "when": "pot_luk",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/pot_luk/pot_luk"
+        }
+      },
+	  {
+        "when": "pot_red",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/pot_red/pot_red"
+        }
+      },
+	  {
+        "when": "pot_white",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/pot_white/pot_white"
+        }
+      },
+	  {
+        "when": "sunglasses_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/sunglasses_blue/sunglasses_blue"
+        }
+      },
+	  {
+        "when": "sunglasses_cyan",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/sunglasses_cyan/sunglasses_cyan"
+        }
+      },
+	  {
+        "when": "sunglasses_green",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/sunglasses_green/sunglasses_green"
+        }
+      },
+	  {
+        "when": "sunglasses_orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/sunglasses_orange/sunglasses_orange"
+        }
+      },
+	  {
+        "when": "sunglasses_pink",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/sunglasses_pink/sunglasses_pink"
+        }
+      },
+	  {
+        "when": "sunglasses_purple",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/sunglasses_purple/sunglasses_purple"
+        }
+      },
+	  {
+        "when": "sunglasses_red",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/sunglasses_red/sunglasses_red"
+        }
+      },
+	  {
+        "when": "sunglasses_yellow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/sunglasses_yellow/sunglasses_yellow"
+        }
+      },
+	  {
+        "when": "tangerine",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/tangerine/tangerine"
+        }
+      },
+	  {
+        "when": "tomato",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/tomato/tomato"
+        }
+      },
+	  {
+        "when": "warm_pag",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/warm_pag/warm_pag"
+        }
+      },
+	  {
+        "when": "warm_paname",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/warm_paname/warm_paname"
+        }
+      },
+	  {
+        "when": "warm_pwgood",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/warm_pwgood/warm_pwgood"
+        }
+      },
+	  {
+        "when": "warm_sad",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/warm_sad/warm_sad"
+        }
+      },
+	  {
+        "when": "warm_sus",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_2/warm_sus/warm_sus"
+        }
+      },
+	  {
+        "when": "lights",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_3/lights/lights"
+        }
+      },
+	  {
+        "when": "shlyapa",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_3/shlyapa/shlyapa"
+        }
+      },
+	  {
+        "when": "tv",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_3/tv/tv"
+        }
+      },
+	  {
+        "when": "vent",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_3/vent/vent"
+        }
+      },
+	  {
+        "when": "bilancia",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/bilancia/bilancia"
+        }
+      },
+	  {
+        "when": "bjlaguk",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/bjlaguk/bjlaguk"
+        }
+      },
+	  {
+        "when": "bobronator",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/bobronator/bobronator"
+        }
+      },
+	  {
+        "when": "callisto",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/callisto/callisto"
+        }
+      },
+	  {
+        "when": "cancer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/cancer/cancer"
+        }
+      },
+	  {
+        "when": "cloudy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/cloudy/cloudy"
+        }
+      },
+	  {
+        "when": "dremo",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/dremo/dremo"
+        }
+      },
+	  {
+        "when": "drt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/drt/drt"
+        }
+      },
+	  {
+        "when": "evil",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/evil/evil"
+        }
+      },
+	  {
+        "when": "gamdav",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/gamdav/gamdav"
+        }
+      },
+	  {
+        "when": "gwinsen",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/gwinsen/gwinsen"
+        }
+      },
+	  {
+        "when": "homilian",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/homilian/homilian"
+        }
+      },
+	  {
+        "when": "jehervs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/jehervs/jehervs"
+        }
+      },
+	  {
+        "when": "korzh",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/korzh/korzh"
+        }
+      },
+	  {
+        "when": "leona",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/leona/leona"
+        }
+      },
+	  {
+        "when": "ler",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/ler/ler"
+        }
+      },
+	  {
+        "when": "m4x0nn",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/maxon/maxon"
+        }
+      },
+	  {
+        "when": "nevos",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/nevos/nevos"
+        }
+      },
+	  {
+        "when": "okakuh",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/okakuh/okakuh"
+        }
+      },
+	  {
+        "when": "pooshka",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/pooshka/pooshka"
+        }
+      },
+	  {
+        "when": "pozhiznenayakazn",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/pozhiznenayakazn/pozhiznenayakazn"
+        }
+      },
+	  {
+        "when": "pwgood",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/pwgood/pwgood"
+        }
+      },
+	  {
+        "when": "ralt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/ralt/ralt"
+        }
+      },
+	  {
+        "when": "redkitli",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/redkitli/redkitli"
+        }
+      },
+	  {
+        "when": "rilaveon",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/rilaveon/rilaveon"
+        }
+      },
+	  {
+        "when": "shvedoff",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/shvedoff/shvedoff"
+        }
+      },
+	  {
+        "when": "tipo_lon",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/tipo_lon/tipo_lon"
+        }
+      },
+	  {
+        "when": "trefis",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/trefis/trefis"
+        }
+      },
+	  {
+        "when": "vtylka",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/vtylka/vtylka"
+        }
+      },
+	  {
+        "when": "ysachov",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_4/ysachov/ysachov"
+        }
+      },
+	  {
+        "when": "amogus",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/amogus/amogus"
+        }
+      },
+	  {
+        "when": "amogus_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/amogus_blue/amogus_blue"
+        }
+      },
+	  {
+        "when": "amogus_green",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/amogus_green/amogus_green"
+        }
+      },
+	  {
+        "when": "amogus_lightblue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/amogus_lightblue/amogus_lightblue"
+        }
+      },
+	  {
+        "when": "amogus_orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/amogus_orange/amogus_orange"
+        }
+      },
+	  {
+        "when": "amogus_pink",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/amogus_pink/amogus_pink"
+        }
+      },
+	  {
+        "when": "amogus_purple",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/amogus_purple/amogus_purple"
+        }
+      },
+	  {
+        "when": "amogus_yellow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/amogus_yellow/amogus_yellow"
+        }
+      },
+	  {
+        "when": "crab",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/crab/crab"
+        }
+      },
+	  {
+        "when": "dedmoroz",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/dedmoroz/dedmoroz"
+        }
+      },
+	  {
+        "when": "ernest",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/ernest/ernest"
+        }
+      },
+	  {
+        "when": "fishing",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/fishing/fishing"
+        }
+      },
+	  {
+        "when": "peeposit",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/peeposit/peeposit"
+        }
+      },
+	  {
+        "when": "potter_glass",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/potter_glass/potter_glass"
+        }
+      },
+	  {
+        "when": "potter_hat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/potter_hat/potter_hat"
+        }
+      },
+	  {
+        "when": "strawberry",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_5/strawberry/strawberry"
+        }
+      },
+	  {
+        "when": "nipropieren",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_6/nipropieren/nipropieren"
+        }
+      },
+	  {
+        "when": "sosa",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_6/sosa/sosa"
+        }
+      },
+	  {
+        "when": "megalul",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/bog/bog"
+        }
+      },
+	  {
+        "when": "bread",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/bread/bread"
+        }
+      },
+	  {
+        "when": "cap",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/cap/cap"
+        }
+      },
+	  {
+        "when": "capybara",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/capybara/capybara"
+        }
+      },
+	  {
+        "when": "clown_hair",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/clown_hair/clown_hair"
+        }
+      },
+	  {
+        "when": "clown_mask",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/clown_mask/clown_mask"
+        }
+      },
+	  {
+        "when": "comedy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/comedy/comedy"
+        }
+      },
+	  {
+        "when": "domestos",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/domestos/domestos"
+        }
+      },
+	  {
+        "when": "doom",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/doom/doom"
+        }
+      },
+	  {
+        "when": "dropper",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/dropper/dropper"
+        }
+      },
+	  {
+        "when": "flowers_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/flowers/blue_flowers/blue_flowers"
+        }
+      },
+	  {
+        "when": "flowers_cyan",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/flowers/cyan_flowers/cyan_flowers"
+        }
+      },
+	  {
+        "when": "flowers_orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/flowers/orange_flowers/orange_flowers"
+        }
+      },
+	  {
+        "when": "flowers_pink",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/flowers/pink_flowers/pink_flowers"
+        }
+      },
+	  {
+        "when": "flowers_white",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/flowers/white_flowers/white_flowers"
+        }
+      },
+	  {
+        "when": "flowers_yellow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/flowers/yellow_flowers/yellow_flowers"
+        }
+      },
+	  {
+        "when": "flowers_red",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/flowers/red_flowers/red_flowers"
+        }
+      },
+	  {
+        "when": "flushed",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/flushed/flushed"
+        }
+      },
+	  {
+        "when": "gandon",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/gandon/gandon"
+        }
+      },
+	  {
+        "when": "gigachad",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/gigachad/gigachad"
+        }
+      },
+	  {
+        "when": "isaac",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/isaac/isaac"
+        }
+      },
+	  {
+        "when": "joker",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/joker/joker"
+        }
+      },
+	  {
+        "when": "lurk",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/lurk/lurk"
+        }
+      },
+	  {
+        "when": "maxon",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/maxon/maxon"
+        }
+      },
+	  {
+        "when": "nerd",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/nerd/nerd"
+        }
+      },
+	  {
+        "when": "observer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/observer/observer"
+        }
+      },
+	  {
+        "when": "payday",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/payday/payday"
+        }
+      },
+	  {
+        "when": "pepe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/pepe/pepe"
+        }
+      },
+	  {
+        "when": "pupsik",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/pupsik/pupsik"
+        }
+      },
+	  {
+        "when": "ricardo",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/ricardo/ricardo"
+        }
+      },
+	  {
+        "when": "sans",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/sans/sans"
+        }
+      },
+	  {
+        "when": "soy_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/soy_1/soy_1"
+        }
+      },
+	  {
+        "when": "soy_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/soy_2/soy_2"
+        }
+      },
+	  {
+        "when": "spiderman",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/spiderman/spiderman"
+        }
+      },
+	  {
+        "when": "stare",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/stare/stare"
+        }
+      },
+	  {
+        "when": "tragedy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/tragedy/tragedy"
+        }
+      },
+	  {
+        "when": "tuwka",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/tuwka/tuwka"
+        }
+      },
+	  {
+        "when": "vi",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/vi/vi"
+        }
+      },
+	  {
+        "when": "zoidberg",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_7/zoidberg/zoidberg"
+        }
+      },
+	  {
+        "when": "bandit",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/bandit/bandit"
+        }
+      },
+	  {
+        "when": "berries",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/berries/berries"
+        }
+      },
+	  {
+        "when": "bonnie",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/bonnie/bonnie"
+        }
+      },
+	  {
+        "when": "chika",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/chika/chika"
+        }
+      },
+	  {
+        "when": "ghost_cyan",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/cyan_ghost/cyan_ghost"
+        }
+      },
+	  {
+        "when": "ghost",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/ghost/ghost"
+        }
+      },
+	  {
+        "when": "dracula",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/dracula/dracula"
+        }
+      },
+	  {
+        "when": "foxy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/foxy/foxy"
+        }
+      },
+	  {
+        "when": "frank",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/frank/frank"
+        }
+      },
+	  {
+        "when": "freddy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/freddy/freddy"
+        }
+      },
+	  {
+        "when": "gingerbread",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/gingerbread/gingerbread"
+        }
+      },
+	  {
+        "when": "grinch",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/grinch/grinch"
+        }
+      },
+	  {
+        "when": "jack",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/jack/jack"
+        }
+      },
+	  {
+        "when": "jason",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/jason/jason"
+        }
+      },
+	  {
+        "when": "johnny",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/johnny/johnny"
+        }
+      },
+	  {
+        "when": "kaonasi",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/kaonasi/kaonasi"
+        }
+      },
+	  {
+        "when": "maniac",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/maniac/maniac"
+        }
+      },
+	  {
+        "when": "mummy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/mummy/mummy"
+        }
+      },
+	  {
+        "when": "pump",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/pump/pump"
+        }
+      },
+	  {
+        "when": "ronald",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/ronald/ronald"
+        }
+      },
+	  {
+        "when": "scream",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/scream/scream"
+        }
+      },
+	  {
+        "when": "skeleton",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/skeleton/skeleton"
+        }
+      },
+	  {
+        "when": "skellington",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/skellington/skellington"
+        }
+      },
+	  {
+        "when": "skid",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/skid/skid"
+        }
+      },
+	  {
+        "when": "trup_nevesti",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/trup_nevesti/trup_nevesti"
+        }
+      },
+	  {
+        "when": "zombie",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_8/zombie/zombie"
+        }
+      },
+	  {
+        "when": "manukq",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/manukq/manukq"
+        }
+      },
+	  {
+        "when": "itsfinner",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/itsfinner/itsfinner"
+        }
+      },
+	  {
+        "when": "welding_mask",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/welding_mask/welding_mask"
+        }
+      },
+	  {
+        "when": "ghastling",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/ghastling/ghastling"
+        }
+      },
+	  {
+        "when": "ghastling_glasses",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/ghastling/ghastling2"
+        }
+      },
+	  {
+        "when": "finger_up_black",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/finger_up/black/black_finger_up"
+        }
+      },
+	  {
+        "when": "finger_up_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/finger_up/blue/blue_finger_up"
+        }
+      },
+	  {
+        "when": "finger_up_brown",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/finger_up/brown/brown_finger_up"
+        }
+      },
+	  {
+        "when": "finger_up_green",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/finger_up/green/green_finger_up"
+        }
+      },
+	  {
+        "when": "finger_up_orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/finger_up/orange/orange_finger_up"
+        }
+      },
+	  {
+        "when": "finger_up_purple",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/finger_up/purple/purple_finger_up"
+        }
+      },
+	  {
+        "when": "finger_up_red",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/finger_up/red/red_finger_up"
+        }
+      },
+	  {
+        "when": "finger_up_white",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/finger_up/white/white_finger_up"
+        }
+      },
+	  {
+        "when": "finger_up_yellow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/finger_up/yellow/yellow_finger_up"
+        }
+      },
+	  {
+        "when": "fishie_hat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/fishie_hat/fishie_hat"
+        }
+      },
+	  {
+        "when": "jrams",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/jrams/jrams"
+        }
+      },
+	  {
+        "when": "pompon",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/pompon/pompon"
+        }
+      },
+	  {
+        "when": "hat_cheering_ogy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/hat_cheering/hat_cheering_ogy/hat_cheering_ogy"
+        }
+      },
+	  {
+        "when": "hat_cheering_rbv",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/hat_cheering/hat_cheering_rbv/hat_cheering_rbv"
+        }
+      },
+	  {
+        "when": "hat_cheering_wbb",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/hat_cheering/hat_cheering_wbb/hat_cheering_wbb"
+        }
+      },
+	  {
+        "when": "create_goggles",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/carved_pumpkin/part_9/create_goggles/create_goggles"
+        }
+      }
+    ]
+  }
+}

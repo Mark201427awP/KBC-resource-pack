@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/pepeland/carved_pumpkin/part_7/a_template/template",
+  "textures": {
+    "0": "minecraft:item/pepeland/carved_pumpkin/part_7/clown_mask/clown_mask",
+    "particle": "minecraft:item/pepeland/carved_pumpkin/part_7/clown_mask/clown_mask"
+  }
+}

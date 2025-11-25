@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/lantern"
+    },
+    "cases": [
+	  {
+        "when": "lights_lantern",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/lantern/part_1/lights_lantern/lights_lantern"
+        }
+      }
+    ]
+  }
+}
+
+

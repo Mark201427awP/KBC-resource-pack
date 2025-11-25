@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/goat_horn"
+    },
+    "cases": [
+	  {
+        "when": "cheering_tube",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/goat_horn/cheering_tube/cheering_tube"
+        }
+      }
+    ]
+  }
+}
+
+

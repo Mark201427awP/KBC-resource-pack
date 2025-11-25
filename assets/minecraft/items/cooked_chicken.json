@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/cooked_chicken"
+    },
+    "cases": [
+	  {
+        "when": "turkey",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/cooked_chicken/part_1/turkey/turkey"
+        }
+      }
+    ]
+  }
+}
+
+

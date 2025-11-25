@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/written_book"
+    },
+    "cases": [
+	  {
+        "when": "display_tools",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/written_book/part_1/display_text/display_text"
+        }
+      },
+	  {
+        "when": "armor_statues",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/written_book/part_1/stands/stands"
+        }
+      },
+	  {
+        "when": "passport",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/written_book/part_1/passport/passport"
+        }
+      }
+    ]
+  }
+}
+
+

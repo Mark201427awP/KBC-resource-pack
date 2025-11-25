@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/compass/rodar"
+    },
+    "cases": [
+      {
+        "when": "rodar",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/compass/texture"
+        }
+      }
+    ]
+  }
+}

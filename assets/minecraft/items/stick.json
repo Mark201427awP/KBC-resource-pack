@@ -1,0 +1,56 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/stick"
+    },
+    "cases": [
+	  {
+        "when": "debug_stick",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/stick/part_1/debug_stick/debug_stick/debug_stick"
+        }
+      },
+	  {
+        "when": "potter_stick",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/stick/part_1/potter_stick/potter_stick"
+        }
+      },
+	  {
+        "when": "wrench",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/stick/part_1/debug_stick/wrench/wrench"
+        }
+      },
+	  {
+        "when": "create_wrench",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/stick/part_1/debug_stick/create_wrench/create_wrench"
+        }
+      },
+	  {
+        "when": "welding_torch",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/stick/part_1/debug_stick/welding_torch/welding_torch"
+        }
+      },
+	  {
+        "when": "hand",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/stick/part_1/debug_stick/hand/hand_wand"
+        }
+      }
+    ]
+  }
+}
+
+

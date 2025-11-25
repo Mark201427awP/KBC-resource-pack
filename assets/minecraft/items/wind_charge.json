@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/wind_charge"
+    },
+    "cases": [
+	  {
+        "when": "rocket_jumper",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/wind_charge/part_1/rocket_jumper/rocket_jumper"
+        }
+      }
+    ]
+  }
+}
+
+

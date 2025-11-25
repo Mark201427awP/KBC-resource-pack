@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/sweet_berries"
+    },
+    "cases": [
+	  {
+        "when": "strawberry",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/sweet_berries/part_1/strawberry/strawberry"
+        }
+      }
+    ]
+  }
+}
+
+

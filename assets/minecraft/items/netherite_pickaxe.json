@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_pickaxe"
+    },
+    "cases": [
+	  {
+        "when": "zoidberg",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/netherite_pickaxe/part_1/zoidberg/zoidberg"
+        }
+      }
+    ]
+  }
+}
+
+

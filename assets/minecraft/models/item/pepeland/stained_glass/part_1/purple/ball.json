@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/pepeland/stained_glass/part_1/black/ball",
+  "textures": {
+    "0": "minecraft:item/pepeland/stained_glass/part_1/purple/ball",
+    "particle": "minecraft:item/pepeland/stained_glass/part_1/purple/ball"
+  }
+}

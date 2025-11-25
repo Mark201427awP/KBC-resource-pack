@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/paper"
+    },
+    "cases": [
+	  {
+        "when": "job",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paper/part_1/job/job"
+        }
+      }
+    ]
+  }
+}
+
+

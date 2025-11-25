@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/pepeland/wool/part_1/black/present",
+  "textures": {
+    "0": "minecraft:item/pepeland/wool/part_1/brown/present",
+    "particle": "minecraft:item/pepeland/wool/part_1/brown/present"
+  }
+}

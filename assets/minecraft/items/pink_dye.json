@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/pink_dye"
+    },
+    "cases": [
+	  {
+        "when": "ballon",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/dye/pink/ballon_dye"
+        }
+      }
+    ]
+  }
+}
+
+

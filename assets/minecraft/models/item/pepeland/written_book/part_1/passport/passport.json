@@ -1,0 +1,98 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "item/pepeland/written_book/part_1/passport/passport",
+		"particle": "item/pepeland/written_book/part_1/passport/passport"
+	},
+	"elements": [
+		{
+			"from": [1.5, 2, -1.5],
+			"to": [14.5, 2.5, 15.5],
+			"faces": {
+				"north": {"uv": [0.5, 10, 3.75, 10.25], "texture": "#0"},
+				"east": {"uv": [0.5, 9.5, 4.75, 9.75], "texture": "#0"},
+				"south": {"uv": [3.75, 10, 7, 10.25], "texture": "#0"},
+				"west": {"uv": [4.75, 9.5, 9, 9.75], "texture": "#0"},
+				"up": {"uv": [10.25, 4.25, 7, 0], "texture": "#0"},
+				"down": {"uv": [10.25, 4.25, 7, 8.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [1, 2.5, -2],
+			"to": [14.5, 3, 16],
+			"faces": {
+				"north": {"uv": [9, 9.625, 12.5, 9.75], "texture": "#0"},
+				"east": {"uv": [4.5, 9.125, 9, 9.25], "texture": "#0"},
+				"south": {"uv": [0.5, 9.875, 4, 10], "texture": "#0"},
+				"west": {"uv": [9, 9.125, 13.5, 9.25], "texture": "#0"},
+				"up": {"uv": [3.375, 4.5, 0, 0], "texture": "#0"},
+				"down": {"uv": [7, 0, 3.625, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [1, 1.5, -2],
+			"to": [14.5, 2, 16],
+			"faces": {
+				"north": {"uv": [4, 9.875, 7.5, 10], "texture": "#0"},
+				"east": {"uv": [4.5, 9.375, 9, 9.5], "texture": "#0"},
+				"south": {"uv": [7.5, 9.875, 11, 10], "texture": "#0"},
+				"west": {"uv": [9, 9.375, 13.5, 9.5], "texture": "#0"},
+				"up": {"uv": [3.375, 9, 0, 4.5], "texture": "#0"},
+				"down": {"uv": [7, 4.5, 3.625, 9], "texture": "#0"}
+			}
+		},
+		{
+			"from": [14.5, 1.5, -2],
+			"to": [15, 3, 16],
+			"faces": {
+				"north": {"uv": [7, 10.125, 7.125, 10.5], "texture": "#0"},
+				"east": {"uv": [7, 8.625, 11.5, 9], "texture": "#0"},
+				"south": {"uv": [7.125, 10.125, 7.25, 10.5], "texture": "#0"},
+				"west": {"uv": [0, 9.125, 4.5, 9.5], "texture": "#0"},
+				"up": {"uv": [0.125, 14, 0, 9.5], "texture": "#0"},
+				"down": {"uv": [0.25, 9.5, 0.125, 14], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-90, 0, 180],
+			"translation": [0, 3, 2],
+			"scale": [0.33, 0.33, 0.33]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-90, 0, 180],
+			"translation": [0, 3, 2],
+			"scale": [0.33, 0.33, 0.33]
+		},
+		"firstperson_righthand": {
+			"rotation": [77, 180, -50],
+			"translation": [-4.5, 6.25, 6.25],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [77, 180, -50],
+			"translation": [-4.5, 6.25, 6.25],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.49, 0.49, 0.49]
+		},
+		"gui": {
+			"rotation": [-96, -11, -152],
+			"translation": [1.75, 1.75, 0],
+			"scale": [0.74, 0.74, 0.74]
+		},
+		"head": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 16.25, -11.25]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 1, -7.75],
+			"scale": [1.17, 1.17, 1.17]
+		}
+	}
+}

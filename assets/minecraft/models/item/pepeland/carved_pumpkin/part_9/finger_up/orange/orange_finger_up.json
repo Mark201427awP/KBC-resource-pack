@@ -1,0 +1,7 @@
+{
+  "parent": "item/pepeland/carved_pumpkin/part_9/finger_up/black/black_finger_up",
+  "textures": {
+    "0": "minecraft:item/pepeland/carved_pumpkin/part_9/finger_up/orange/orange_finger_up",
+    "particle": "minecraft:item/pepeland/carved_pumpkin/part_9/finger_up/orange/orange_finger_up"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_sword"
+    },
+    "cases": [
+	  {
+        "when": "dedmoroz_posoh",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/netherite_sword/part_1/dedmoroz_posoh/dedmoroz_posoh"
+        }
+      },
+	  	  {
+        "when": "skalka",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/netherite_sword/part_1/skalka/skalka"
+        }
+      },
+	  	  {
+        "when": "stop",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/netherite_sword/part_1/stop/stop"
+        }
+      },
+	  	  {
+        "when": "zero",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/netherite_sword/part_1/zero/zero"
+        }
+      },
+	  	  {
+        "when": "cool_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/netherite_sword/part_1/cool_sword/cool_sword"
+        }
+      }
+    ]
+  }
+}
+
+

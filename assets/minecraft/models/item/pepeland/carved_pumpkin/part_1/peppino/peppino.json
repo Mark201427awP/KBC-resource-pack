@@ -1,0 +1,82 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/pepeland/carved_pumpkin/part_1/peppino/peppino",
+		"particle": "item/pepeland/carved_pumpkin/part_1/peppino/peppino"
+	},
+	"elements": [
+		{
+			"from": [8, 3, 3],
+			"to": [14, 5, 13],
+			"faces": {
+				"north": {"uv": [6, 6.5, 9, 7.5], "texture": "#0"},
+				"east": {"uv": [6, 3, 11, 4], "texture": "#0"},
+				"south": {"uv": [6, 7.5, 9, 8.5], "texture": "#0"},
+				"west": {"uv": [6, 4, 11, 5], "texture": "#0"},
+				"up": {"uv": [3, 11.5, 0, 6.5], "texture": "#0"},
+				"down": {"uv": [6, 6.5, 3, 11.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 1, 4],
+			"to": [12, 3, 12],
+			"faces": {
+				"north": {"uv": [9, 0, 13, 1], "texture": "#0"},
+				"east": {"uv": [9, 1, 13, 2], "texture": "#0"},
+				"south": {"uv": [9, 2, 13, 3], "texture": "#0"},
+				"west": {"uv": [10, 9, 14, 10], "texture": "#0"},
+				"up": {"uv": [10, 12.5, 6, 8.5], "texture": "#0"},
+				"down": {"uv": [14, 5, 10, 9], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 3, 3],
+			"to": [8, 6, 13],
+			"faces": {
+				"north": {"uv": [6, 0, 9, 1.5], "texture": "#0"},
+				"east": {"uv": [0, 5, 5, 6.5], "texture": "#0"},
+				"south": {"uv": [6, 1.5, 9, 3], "texture": "#0"},
+				"west": {"uv": [5, 5, 10, 6.5], "texture": "#0"},
+				"up": {"uv": [3, 5, 0, 0], "texture": "#0"},
+				"down": {"uv": [6, 0, 3, 5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2.5, 0],
+			"scale": [0.41, 0.41, 0.41]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 2.5, 0],
+			"scale": [0.41, 0.41, 0.41]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 5, 0],
+			"scale": [0.58, 0.58, 0.58]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 5, 0],
+			"scale": [0.58, 0.58, 0.58]
+		},
+		"ground": {
+			"translation": [0, 1.25, 0],
+			"scale": [0.59, 0.59, 0.59]
+		},
+		"gui": {
+			"rotation": [28, 42, 0],
+			"translation": [0.25, 2.75, 0],
+			"scale": [0.83, 0.83, 0.83]
+		},
+		"head": {
+			"translation": [0, 16.75, 0],
+			"scale": [1.85, 1.85, 1.85]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0.5, -11.5],
+			"scale": [1.67, 1.67, 1.67]
+		}
+	}
+}

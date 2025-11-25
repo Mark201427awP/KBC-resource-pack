@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/pepeland/totem/part_2/amogus/amogus",
+  "textures": {
+    "0": "minecraft:item/pepeland/totem/part_2/amogus_yellow/amogus_yellow",
+    "particle": "minecraft:item/pepeland/totem/part_2/amogus_yellow/amogus_yellow"
+  }
+}

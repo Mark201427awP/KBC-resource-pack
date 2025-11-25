@@ -1,0 +1,120 @@
+{
+	"model": {
+		"type": "condition",
+		"on_false": {
+			"type": "select",
+			"base": "item/shield",
+			"model": {
+				"type": "shield"
+			},
+			"property": "custom_model_data",
+			"cases": [
+				{
+					"when": "stop_shield",
+					"model": {
+						"type": "model",
+						"base": "item/pepeland/shield/stop/stop_shield",
+						"model": "item/pepeland/shield/stop/stop_shield"
+					}
+				},
+				{
+					"when": "tuwka_shield",
+					"model": {
+						"type": "model",
+						"base": "item/pepeland/shield/tuwka/tuwka_shield",
+						"model": "item/pepeland/shield/tuwka/tuwka_shield"
+					}
+				},
+				{
+					"when": "maxon_shield",
+					"model": {
+						"type": "model",
+						"base": "item/pepeland/shield/maxon/maxon_shield",
+						"model": "item/pepeland/shield/maxon/maxon_shield"
+					}
+				},
+				{
+					"when": "nerd_shield",
+					"model": {
+						"type": "model",
+						"base": "item/pepeland/shield/nerd/nerd_shield",
+						"model": "item/pepeland/shield/nerd/nerd_shield"
+					}
+				},
+				{
+					"when": "flushed_shield",
+					"model": {
+						"type": "model",
+						"base": "item/pepeland/shield/flushed/flushed_shield",
+						"model": "item/pepeland/shield/flushed/flushed_shield"
+					}
+				}
+			],
+			"fallback": {
+				"type": "special",
+				"base": "item/shield",
+				"model": {
+					"type": "shield"
+				}
+			}
+		},
+		"on_true": {
+			"type": "select",
+			"base": "item/shield_blocking",
+			"model": {
+				"type": "shield"
+			},
+			"property": "custom_model_data",
+			"cases": [
+				{
+					"when": "stop_shield",
+					"model": {
+						"type": "model",
+						"base": "item/pepeland/shield/stop/stop_blocking",
+						"model": "item/pepeland/shield/stop/stop_blocking"
+					}
+				},
+				{
+					"when": "tuwka_shield",
+					"model": {
+						"type": "model",
+						"base": "item/pepeland/shield/tuwka/tuwka_blocking",
+						"model": "item/pepeland/shield/tuwka/tuwka_blocking"
+					}
+				},
+				{
+					"when": "maxon_shield",
+					"model": {
+						"type": "model",
+						"base": "item/pepeland/shield/maxon/maxon_blocking",
+						"model": "item/pepeland/shield/maxon/maxon_blocking"
+					}
+				},
+				{
+					"when": "nerd_shield",
+					"model": {
+						"type": "model",
+						"base": "item/pepeland/shield/nerd/nerd_blocking",
+						"model": "item/pepeland/shield/nerd/nerd_blocking"
+					}
+				},
+				{
+					"when": "flushed_shield",
+					"model": {
+						"type": "model",
+						"base": "item/pepeland/shield/flushed/flushed_blocking",
+						"model": "item/pepeland/shield/flushed/flushed_blocking"
+					}
+				}
+			],
+			"fallback": {
+				"type": "special",
+				"base": "item/shield_blocking",
+				"model": {
+					"type": "shield"
+				}
+			}
+		},
+		"property": "using_item"
+	}
+}

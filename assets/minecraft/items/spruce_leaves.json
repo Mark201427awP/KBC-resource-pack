@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/spruce_leaves",
+	  "tints": [
+			{
+				"type": "minecraft:constant",
+				"value": -10380959
+			}
+		]
+    },
+    "cases": [
+	  {
+        "when": "wreath",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/spruce_leaves/part_1/wreath/wreath"
+        }
+      }
+    ]
+  }
+}
+
+

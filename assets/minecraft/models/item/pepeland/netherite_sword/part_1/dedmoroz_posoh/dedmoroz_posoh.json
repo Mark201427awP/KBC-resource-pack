@@ -1,0 +1,64 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/pepeland/netherite_sword/part_1/dedmoroz_posoh/dedmoroz_posoh",
+		"particle": "item/pepeland/netherite_sword/part_1/dedmoroz_posoh/dedmoroz_posoh"
+	},
+	"elements": [
+		{
+			"from": [7, -9, 7],
+			"to": [9, 23, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"east": {"uv": [1, 0, 2, 16], "texture": "#0"},
+				"south": {"uv": [2, 0, 3, 16], "texture": "#0"},
+				"west": {"uv": [3, 0, 4, 16], "texture": "#0"},
+				"up": {"uv": [5, 1, 4, 0], "texture": "#0"},
+				"down": {"uv": [5, 1, 4, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 23, 4],
+			"to": [8, 31, 12],
+			"faces": {
+				"north": {"uv": [12, 12, 12, 16], "texture": "#0"},
+				"east": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"south": {"uv": [12, 12, 12, 16], "texture": "#0"},
+				"west": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"up": {"uv": [12, 12, 12, 16], "texture": "#0"},
+				"down": {"uv": [12, 12, 12, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -7.5, 1.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -7.5, 1.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [5, 35, 0],
+			"translation": [1.25, -11, -2.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [5, 35, 0],
+			"translation": [1.25, -11, -2.75]
+		},
+		"ground": {
+			"rotation": [0, 0, 90],
+			"translation": [0, -0.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, -63, 35],
+			"translation": [0.25, -1, 0],
+			"scale": [0.38, 0.38, 0.38]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0, -1, 0]
+		}
+	}
+}

@@ -1,0 +1,373 @@
+{
+  "model": {
+    "type": "select",
+    "property": "component",
+	"component": "painting/variant",
+	"fallback": {
+		"type": "minecraft:model",
+		"model": "minecraft:item/painting"
+		
+    },
+    "cases": [
+	  {
+        "when": "kebab",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/kebab"
+        }
+      },
+	  {
+        "when": "aztec",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/aztec"
+        }
+      },
+	  {
+        "when": "alban",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/alban"
+        }
+      },
+	  {
+        "when": "aztec2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/aztec2"
+        }
+      },
+	  {
+        "when": "bomb",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/bomb"
+        }
+      },
+	  {
+        "when": "plant",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/plant"
+        }
+      },
+	  {
+        "when": "wasteland",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/wasteland"
+        }
+      },
+	  {
+        "when": "wanderer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/wanderer"
+        }
+      },
+	  {
+        "when": "graham",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/graham"
+        }
+      },
+	  {
+        "when": "pool",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/pool"
+        }
+      },
+	  {
+        "when": "courbet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/courbet"
+        }
+      },
+	  {
+        "when": "sea",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/sea"
+        }
+      },
+	  {
+        "when": "sunset",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/sunset"
+        }
+      },
+	  {
+        "when": "creebet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/creebet"
+        }
+      },
+	  {
+        "when": "match",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/match"
+        }
+      },
+	  {
+        "when": "bust",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/bust"
+        }
+      },
+	  {
+        "when": "stage",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/stage"
+        }
+      },
+	  {
+        "when": "void",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/void"
+        }
+      },
+	  {
+        "when": "skull_and_roses",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/skull_and_roses"
+        }
+      },
+	  {
+        "when": "wither",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/wither"
+        }
+      },
+	  {
+        "when": "fighters",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/fighters"
+        }
+      },
+	  {
+        "when": "skeleton",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/skeleton"
+        }
+      },
+	  {
+        "when": "donkey_kong",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/donkey_kong"
+        }
+      },
+	  {
+        "when": "pointer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/pointer"
+        }
+      },
+	  {
+        "when": "pigscene",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/pigscene"
+        }
+      },
+	  {
+        "when": "burning_skull",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/burning_skull"
+        }
+      },
+	  {
+        "when": "earth",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/earth"
+        }
+      },
+	  {
+        "when": "wind",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/wind"
+        }
+      },
+	  {
+        "when": "water",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/water"
+        }
+      },
+	  {
+        "when": "fire",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/fire"
+        }
+      },
+	  {
+        "when": "meditative",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/meditative"
+        }
+      },
+	  {
+        "when": "prairie_ride",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/prairie_ride"
+        }
+      },
+	  {
+        "when": "baroque",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/baroque"
+        }
+      },
+	  {
+        "when": "humble",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/humble"
+        }
+      },
+	  {
+        "when": "changing",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/changing"
+        }
+      },
+	  {
+        "when": "finding",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/finding"
+        }
+      },
+	  {
+        "when": "lowmist",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/lowmist"
+        }
+      },
+	  {
+        "when": "passage",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/passage"
+        }
+      },
+	  {
+        "when": "bouquet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/bouquet"
+        }
+      },
+	  {
+        "when": "cotan",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/cotan"
+        }
+      },
+	  {
+        "when": "endboss",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/endboss"
+        }
+      },
+	  {
+        "when": "fern",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/fern"
+        }
+      },
+	  {
+        "when": "owlemons",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/owlemons"
+        }
+      },
+	  {
+        "when": "sunflowers",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/sunflowers"
+        }
+      },
+	  {
+        "when": "tides",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/tides"
+        }
+      },
+	  {
+        "when": "backyard",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/backyard"
+        }
+      },
+	  {
+        "when": "pond",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/pond"
+        }
+      },
+	  {
+        "when": "orb",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/orb"
+        }
+      },
+	  {
+        "when": "unpacked",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/unpacked"
+        }
+      },
+	  {
+        "when": "dennis",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/dennis"
+        }
+      },
+	  {
+        "when": "cavebird",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/paintings/cavebird"
+        }
+      }
+    ]
+  }
+}
+
+

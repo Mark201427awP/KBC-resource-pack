@@ -1,0 +1,63 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/golden_carrot"
+    },
+    "cases": [
+	  {
+        "when": "candy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/golden_carrot/part_1/candy/candy"
+        }
+      },
+	  {
+        "when": "ice_cream",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/golden_carrot/part_1/ice_cream/ice_cream"
+        }
+      },
+	  {
+        "when": "korzinka",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/golden_carrot/part_1/korzinka/korzinka"
+        }
+      },
+	  {
+        "when": "korzinka_halloween",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/golden_carrot/part_1/korzinka_halloween/korzinka_halloween"
+        }
+      },
+	  {
+        "when": "korzinka_summer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/golden_carrot/part_1/korzinka_summer/korzinka_summer"
+        }
+      },
+	  {
+        "when": "mandragore",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/golden_carrot/part_1/mandragore/mandragore"
+        }
+      },
+	  {
+        "when": "sirok",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/golden_carrot/part_1/sirok/sirok"
+        }
+      }
+    ]
+  }
+}
+
+

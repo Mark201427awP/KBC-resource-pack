@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/pepeland/carved_pumpkin/part_5/amogus/amogus",
+  "textures": {
+    "1": "minecraft:item/pepeland/carved_pumpkin/part_5/amogus_orange/amogus_orange",
+    "particle": "minecraft:item/pepeland/carved_pumpkin/part_5/amogus_orange/amogus_orange"
+  }
+}

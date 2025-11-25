@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/pepeland/carved_pumpkin/part_2/hat_cyan/hat_cyan",
+  "textures": {
+    "2": "minecraft:item/pepeland/carved_pumpkin/part_2/hat_orange/hat_orange",
+    "particle": "minecraft:item/pepeland/carved_pumpkin/part_2/hat_orange/hat_orange"
+  }
+}

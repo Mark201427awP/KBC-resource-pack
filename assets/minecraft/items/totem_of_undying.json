@@ -1,0 +1,371 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/totem_of_undying"
+    },
+    "cases": [
+	  {
+        "when": "bilancia",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/bilancia/bilancia"
+        }
+      },
+	  {
+        "when": "bjlaguk",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/bjlaguk/bjlaguk"
+        }
+      },
+	  {
+        "when": "bobronator",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/bobronator/bobronator"
+        }
+      },
+	  {
+        "when": "callisto",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/callisto/callisto"
+        }
+      },
+	  {
+        "when": "cancer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/cancer/cancer"
+        }
+      },
+	  {
+        "when": "cloudy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/cloudy/cloudy"
+        }
+      },
+	  {
+        "when": "dremo",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/dremo/dremo"
+        }
+      },
+	  {
+        "when": "drt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/drt/drt"
+        }
+      },
+	  {
+        "when": "evil",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/evil/evil"
+        }
+      },
+	  {
+        "when": "gamdav",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/gamdav/gamdav"
+        }
+      },
+	  {
+        "when": "gwinsen",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/gwinsen/gwinsen"
+        }
+      },
+	  {
+        "when": "homilian",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/homilian/homilian"
+        }
+      },
+	  {
+        "when": "jehervs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/jehervs/jehervs"
+        }
+      },
+	  {
+        "when": "korzh",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/korzh/korzh"
+        }
+      },
+	  {
+        "when": "leona",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/leona/leona"
+        }
+      },
+	  {
+        "when": "ler",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/ler/ler"
+        }
+      },
+	  {
+        "when": "m4x0nn",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/maxon/maxon"
+        }
+      },
+	  {
+        "when": "nevos",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/nevos/nevos"
+        }
+      },
+	  {
+        "when": "okakuh",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/okakuh/okakuh"
+        }
+      },
+	  {
+        "when": "pooshka",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/pooshka/pooshka"
+        }
+      },
+	  {
+        "when": "pozhiznenayakazn",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/pozhiznenayakazn/pozhiznenayakazn"
+        }
+      },
+	  {
+        "when": "pwgood",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/pwgood/pwgood"
+        }
+      },
+	  {
+        "when": "ralt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/ralt/ralt"
+        }
+      },
+	  {
+        "when": "redkitli",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/redkitli/redkitli"
+        }
+      },
+	  {
+        "when": "rilaveon",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/rilaveon/rilaveon"
+        }
+      },
+	  {
+        "when": "shvedoff",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/shvedoff/shvedoff"
+        }
+      },
+	  {
+        "when": "tipo_lon",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/tipo_lon/tipo_lon"
+        }
+      },
+	  {
+        "when": "trefis",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/trefis/trefis"
+        }
+      },
+	  {
+        "when": "vtylka",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/vtylka/vtylka"
+        }
+      },
+	  {
+        "when": "ysachov",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_1/ysachov/ysachov"
+        }
+      },
+	  {
+        "when": "amogus",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_2/amogus/amogus"
+        }
+      },
+	  {
+        "when": "amogus_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_2/amogus_blue/amogus_blue"
+        }
+      },
+	  {
+        "when": "amogus_green",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_2/amogus_green/amogus_green"
+        }
+      },
+	  {
+        "when": "amogus_lightblue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_2/amogus_lightblue/amogus_lightblue"
+        }
+      },
+	  {
+        "when": "amogus_orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_2/amogus_orange/amogus_orange"
+        }
+      },
+	  {
+        "when": "amogus_pink",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_2/amogus_pink/amogus_pink"
+        }
+      },
+	  {
+        "when": "amogus_purple",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_2/amogus_purple/amogus_purple"
+        }
+      },
+	  {
+        "when": "amogus_yellow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_2/amogus_yellow/amogus_yellow"
+        }
+      },
+	  {
+        "when": "crab",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_2/crab/crab"
+        }
+      },
+	  {
+        "when": "ernest",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_2/ernest/ernest"
+        }
+      },
+	  {
+        "when": "fishing",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_2/fishing/fishing"
+        }
+      },
+	  {
+        "when": "peeposit",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_2/peeposit/peeposit"
+        }
+      },
+	  {
+        "when": "suseki",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_2/suseki/suseki"
+        }
+      },
+	  {
+        "when": "itsfinner",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_3/itsfinner/itsfinner"
+        }
+      },
+	  {
+        "when": "manukq",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_3/manukq/manukq"
+        }
+      },
+	  {
+        "when": "sosa",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_3/sosa/sosa"
+        }
+      },
+	  {
+        "when": "nipropieren",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_3/nipropieren/nipropieren"
+        }
+      },
+	  {
+        "when": "tamagochi",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_3/tamagochi/tamagochi"
+        }
+      },
+	  {
+        "when": "jrams",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_3/jrams/jrams"
+        }
+      },
+	  {
+        "when": "tamagochi_barbie",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_3/tamagochi_barbie/tamagochi_barbie"
+        }
+      },
+	  {
+        "when": "tamagochi_cinema",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/totem/part_3/tamagochi_cinema/tamagochi_cinema"
+        }
+      }
+    ]
+  }
+}
+
+

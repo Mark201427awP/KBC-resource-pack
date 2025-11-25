@@ -1,0 +1,216 @@
+{
+	"model": {
+		"type": "condition",
+		"on_false": {
+			"type": "select",
+			"fallback": {
+				"type": "select",
+				"property": "custom_model_data",
+				"fallback": {
+					"type": "minecraft:model",
+					"model": "item/crossbow"
+				},
+				"cases": [
+					{
+						"when": "gray_gun",
+						"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/pepeland/crossbow/gray_gun/gray_gun"
+						}
+					},
+					{
+						"when": "gun",
+						"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/pepeland/crossbow/gun/gun"
+						}
+					},
+					{
+						"when": "pooshka",
+						"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/pepeland/crossbow/pooshka/pooshka"
+						}
+					}
+				]
+			},
+			"cases": [
+				{
+					"model": {
+						"type": "select",
+						"property": "custom_model_data",
+						"fallback": {
+							"type": "minecraft:model",
+							"model": "item/crossbow_arrow"
+						},
+						"cases": [
+							{
+								"when": "gray_gun",
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/pepeland/crossbow/gray_gun/gray_gun_pulling_2"
+								}
+							},
+							{
+								"when": "gun",
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/pepeland/crossbow/gun/gun_pulling_2"
+								}
+							},
+							{
+								"when": "pooshka",
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/pepeland/crossbow/pooshka/pooshka_pulling_2"
+								}
+							}
+						]
+					},
+					"when": "arrow"
+				},
+				{
+					"model": {
+						"type": "select",
+						"property": "custom_model_data",
+						"fallback": {
+							"type": "minecraft:model",
+							"model": "item/crossbow_firework"
+						},
+						"cases": [
+							{
+								"when": "gray_gun",
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/pepeland/crossbow/gray_gun/gray_gun_pulling_2"
+								}
+							},
+							{
+								"when": "gun",
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/pepeland/crossbow/gun/gun_pulling_2"
+								}
+							},
+							{
+								"when": "pooshka",
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/pepeland/crossbow/pooshka/pooshka_pulling_2"
+								}
+							}
+						]
+					},
+					"when": "rocket"
+				}
+			],
+			"property": "charge_type"
+		},
+		"on_true": {
+			"type": "range_dispatch",
+			"entries": [
+				{
+					"model": {
+						"type": "select",
+						"property": "custom_model_data",
+						"fallback": {
+							"type": "minecraft:model",
+							"model": "item/crossbow_pulling_1"
+						},
+						"cases": [
+							{
+								"when": "gray_gun",
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/pepeland/crossbow/gray_gun/gray_gun_pulling_1"
+								}
+							},
+							{
+								"when": "gun",
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/pepeland/crossbow/gun/gun_pulling_1"
+								}
+							},
+							{
+								"when": "pooshka",
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/pepeland/crossbow/pooshka/pooshka_pulling_1"
+								}
+							}
+						]
+					},
+					"threshold": 0.58
+				},
+				{
+					"model": {
+						"type": "select",
+						"property": "custom_model_data",
+						"fallback": {
+							"type": "minecraft:model",
+							"model": "item/crossbow_pulling_2"
+						},
+						"cases": [
+							{
+								"when": "gray_gun",
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/pepeland/crossbow/gray_gun/gray_gun_pulling_2"
+								}
+							},
+							{
+								"when": "gun",
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/pepeland/crossbow/gun/gun_pulling_2"
+								}
+							},
+							{
+								"when": "pooshka",
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/pepeland/crossbow/pooshka/pooshka_pulling_2"
+								}
+							}
+						]
+					},
+					"threshold": 1
+				}
+			],
+			"fallback": {
+				"type": "select",
+				"property": "custom_model_data",
+				"fallback": {
+					"type": "minecraft:model",
+					"model": "item/crossbow_pulling_0"
+				},
+				"cases": [
+					{
+						"when": "gray_gun",
+						"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/pepeland/crossbow/gray_gun/gray_gun"
+						}
+					},
+					{
+						"when": "gun",
+						"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/pepeland/crossbow/gun/gun"
+						}
+					},
+					{
+						"when": "pooshka",
+						"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/pepeland/crossbow/pooshka/pooshka"
+						}
+					}
+				]
+			},
+			"property": "crossbow/pull"
+		},
+		"property": "using_item"
+	}
+}

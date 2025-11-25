@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/powder_snow_bucket"
+    },
+    "cases": [
+	  {
+        "when": "vedro",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/powder_snow_bucket/part_1/vedro/vedro"
+        }
+      }
+    ]
+  }
+}
+
+

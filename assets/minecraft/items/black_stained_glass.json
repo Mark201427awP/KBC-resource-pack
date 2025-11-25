@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/black_stained_glass"
+    },
+    "cases": [
+	  {
+        "when": "ball",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/stained_glass/part_1/black/ball"
+        }
+      }
+    ]
+  }
+}
+
+

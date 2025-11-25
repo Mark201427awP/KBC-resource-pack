@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/pepeland/carved_pumpkin/part_2/pencil_blue/pencil_blue",
+  "textures": {
+    "0": "minecraft:item/pepeland/carved_pumpkin/part_2/pencil_yellow/pencil_yellow",
+    "particle": "minecraft:item/pepeland/carved_pumpkin/part_2/pencil_yellow/pencil_yellow"
+  }
+}

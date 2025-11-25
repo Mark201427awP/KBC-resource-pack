@@ -1,0 +1,69 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/pepeland/golden_carrot/part_1/ice_cream/ice_cream",
+		"particle": "item/pepeland/golden_carrot/part_1/ice_cream/ice_cream"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7.5],
+			"to": [9, 6, 8.5],
+			"faces": {
+				"north": {"uv": [7, 0, 8, 3], "texture": "#0"},
+				"east": {"uv": [8, 0, 8.5, 3], "texture": "#0"},
+				"south": {"uv": [7, 3, 8, 6], "texture": "#0"},
+				"west": {"uv": [3, 8, 3.5, 11], "texture": "#0"},
+				"up": {"uv": [8, 6.5, 7, 6], "texture": "#0"},
+				"down": {"uv": [9, 3, 8, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4.5, 6, 6.5],
+			"to": [11.5, 19, 9.5],
+			"faces": {
+				"north": {"uv": [0, 0, 3.5, 6.5], "texture": "#0"},
+				"east": {"uv": [0, 6.5, 1.5, 13], "texture": "#0"},
+				"south": {"uv": [3.5, 0, 7, 6.5], "texture": "#0"},
+				"west": {"uv": [1.5, 6.5, 3, 13], "texture": "#0"},
+				"up": {"uv": [6.5, 8, 3, 6.5], "texture": "#0"},
+				"down": {"uv": [10, 6.5, 6.5, 8], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 1.75, 0.5],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 1.75, 0.5],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -64, -9],
+			"translation": [0.5, 2.5, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -64, -9],
+			"translation": [0.5, 2.5, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"ground": {
+			"translation": [0, 2.5, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"gui": {
+			"rotation": [15, -28, -17],
+			"translation": [-0.75, -1.25, 0],
+			"scale": [0.74, 0.74, 0.74]
+		},
+		"fixed": {
+			"translation": [0, -2.25, -2.25],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

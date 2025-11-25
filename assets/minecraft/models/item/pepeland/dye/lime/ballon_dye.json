@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/pepeland/dye/black/ballon_dye",
+  "textures": {
+    "0": "minecraft:item/pepeland/dye/lime/ballon_dye_lime",
+    "particle": "minecraft:item/pepeland/dye/lime/ballon_dye_lime"
+  }
+}

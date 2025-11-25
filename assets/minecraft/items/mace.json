@@ -1,0 +1,43 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+	"fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/mace"
+    },
+    "cases": [
+	  {
+        "when": "mithrix",
+        "model": {
+			"type": "minecraft:condition",
+			"on_false": {
+				"type": "minecraft:model",
+				"model": "minecraft:item/pepeland/mace/part_1/mithrix_nobroke/mithrix_nobroke"
+			},
+			"on_true": {
+				"type": "minecraft:model",
+				"model": "minecraft:item/pepeland/mace/part_1/mithrix/mithrix"
+			},
+		"property": "minecraft:damaged"
+        }
+      },
+	  {
+        "when": "gardener",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/mace/part_1/gardener/gardener"
+        }
+      },
+	  {
+        "when": "molotok",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pepeland/mace/part_1/molotok/molotok"
+        }
+      }
+    ]
+  }
+}
+
+

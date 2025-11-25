@@ -1,0 +1,66 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "item/pepeland/netherite_pickaxe/part_1/zoidberg/zoidberg"
+	},
+	"elements": [
+		{
+			"from": [5, 1.5, 4],
+			"to": [11, 3.5, 11],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 1.5, 11]},
+			"faces": {
+				"north": {"uv": [4, 5.5, 7, 6.5], "texture": "#1"},
+				"east": {"uv": [4, 3.5, 7.5, 4.5], "texture": "#1"},
+				"south": {"uv": [0, 6, 3, 7], "texture": "#1"},
+				"west": {"uv": [4, 4.5, 7.5, 5.5], "texture": "#1"},
+				"up": {"uv": [3, 3.5, 0, 0], "texture": "#1"},
+				"down": {"uv": [6, 0, 3, 3.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, 0, 6],
+			"to": [10, 2, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 6]},
+			"faces": {
+				"north": {"uv": [6, 2, 8, 3], "texture": "#1"},
+				"east": {"uv": [6, 0, 8.5, 1], "texture": "#1"},
+				"south": {"uv": [3, 6.5, 5, 7.5], "texture": "#1"},
+				"west": {"uv": [6, 1, 8.5, 2], "texture": "#1"},
+				"up": {"uv": [2, 6, 0, 3.5], "texture": "#1"},
+				"down": {"uv": [4, 3.5, 2, 6], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 6.75, -2.75],
+			"scale": [1.37, 1.37, 1.37]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 6.75, -2.75],
+			"scale": [1.37, 1.37, 1.37]
+		},
+		"firstperson_righthand": {
+			"translation": [0.5, 9.25, 0.25],
+			"scale": [1.35, 1.35, 1.35]
+		},
+		"firstperson_lefthand": {
+			"translation": [0.5, 9.25, 0.25],
+			"scale": [1.35, 1.35, 1.35]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0]
+		},
+		"gui": {
+			"rotation": [24, -125, 0],
+			"translation": [0, 7.25, 0],
+			"scale": [1.46, 1.46, 1.46]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -19.5],
+			"scale": [2.46, 2.46, 2.46]
+		}
+	}
+}
