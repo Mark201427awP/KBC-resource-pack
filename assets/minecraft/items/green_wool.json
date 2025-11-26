@@ -8,10 +8,10 @@
     },
     "cases": [
 	  {
-        "when": "present",
+        "when": "notebook",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/pepeland/wool/part_1/green/present"
+          "model": "minecraft:item/notebook/model"
         }
       }
     ]

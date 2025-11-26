@@ -4,14 +4,14 @@
     "property": "custom_model_data",
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/compass/rodar"
+      "model": "minecraft:item/notebook/model"
     },
     "cases": [
       {
-        "when": "rodar",
+        "when": "",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/compass/rodar"
+          "model": "minecraft:item/notebook/model"
         }
       }
     ]

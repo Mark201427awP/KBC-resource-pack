@@ -8,10 +8,10 @@
     },
     "cases": [
 	  {
-        "when": "4am",
+        "when": "notebook",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/pepeland/carved_pumpkin/part_1/4am/4am"
+          "model": "minecraft:item/notebook/notebook"
         }
       },
 	  {

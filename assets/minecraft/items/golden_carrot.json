@@ -8,10 +8,10 @@
     },
     "cases": [
 	  {
-        "when": "candy",
+        "when": "note",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/pepeland/golden_carrot/part_1/candy/candy"
+          "model": "minecraft:item/notebook/note"
         }
       },
 	  {
